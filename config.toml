@@ -1,4 +1,21 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'anas'
 theme = "anubis"
+
+[menu]
+
+[[menu.main]]
+name = "Posts"
+identifier = "archive"
+url = "/posts/"
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
